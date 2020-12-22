@@ -64,7 +64,7 @@ public class ChineseRemainderTheorem {
             return 0;
         }
 
-        // This where the extended Euclidean algorithm is applied
+        // The extended Euclidean algorithm is applied
         while (a > 1) {
             q = a / b;
             t = b;
